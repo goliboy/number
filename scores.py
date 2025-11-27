@@ -17,6 +17,8 @@ total = sum(scores)
 average = total / len(scores)
 
 
+maximum = max(scores)
+minimum = min(scores)
 
 
 print("\n--- Array Score Processing ---")
@@ -24,4 +26,5 @@ print("Script Name:", script_name)
 print("Scores:", scores)
 print("Total:", total)
 print("Average:", average)
-
+print("Maximum Score:", maximum)
+print("Minimum Score:", minimum)
